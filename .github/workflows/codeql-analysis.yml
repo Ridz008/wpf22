@@ -49,7 +49,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        config-file: './github/codeql-config.yaml'
+        config-file: './github/codeql/codeql-config.yaml'
 #         working-directory: './WinFormsApp1Sep22/WinFormsApp1Sep22.sln'
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
