@@ -17,7 +17,10 @@ on:
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "main" ]
-    paths-ignore: './ConsoleAppR/'
+    paths: 
+      - 'WinFormsApp1Sep22/**'
+#       - './github/codeql-config.yaml'
+
   schedule:
     - cron: '30 23 * * 4'
 
@@ -46,9 +49,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        queries: security-and-quality
-        fetch-depth: 2
-        paths-ignore: './ConsoleAppR/'
+        config-file: './github/codeql-config.yaml'
 #         working-directory: './WinFormsApp1Sep22/WinFormsApp1Sep22.sln'
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
