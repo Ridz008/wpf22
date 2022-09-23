@@ -58,11 +58,10 @@ jobs:
         # Details on CodeQL's query packs refer to : https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
 
-        
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
-    - name: Autobuild
-      uses: github/codeql-action/autobuild@v2
+#     - name: Autobuild
+#       uses: github/codeql-action/autobuild@v2
 #     - name: Clean temp directory
 #       run: rm -rf *
 #       working-directory: ./ConsoleAppR
@@ -75,6 +74,11 @@ jobs:
 #     with:
 #       - run: |
 #         dotnet build
+   
+    - name: .Net Build
+      uses: EasyDesk/action-dotnet-build@v1.0.0
+      with:
+        path: 'WinFormsApp1Sep22/'
     
 
     - name: Perform CodeQL Analysis
