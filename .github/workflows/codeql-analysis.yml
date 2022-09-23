@@ -13,10 +13,10 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "code-ql" ]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+    branches: [ "code-ql" ]
     paths: 
       - 'WinFormsApp1Sep22/**'
 #       - '.github/codeql-config.yaml'
@@ -70,15 +70,15 @@ jobs:
 
     #   If the Autobuild fails above, remove it and uncomment the following three lines. 
     #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
-#     -name: CustomBuild
-#     with:
-#       - run: |
-#         dotnet build
+    - name: CustomBuild
+#       with:
+    - run: |
+          dotnet build WinFormsApp1Sep22/WinFormsApp1Sep22.sln
    
-    - name: .Net Build
-      uses: EasyDesk/action-dotnet-build@v1.0.0
-      with:
-        path: 'WinFormsApp1Sep22/'
+#     - name: .Net Build
+#       uses: EasyDesk/action-dotnet-build@v1.0.0
+#       with:
+#         path: 'WinFormsApp1Sep22/'
     
 
     - name: Perform CodeQL Analysis
