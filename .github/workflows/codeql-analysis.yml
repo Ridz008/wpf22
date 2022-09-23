@@ -47,7 +47,8 @@ jobs:
         languages: ${{ matrix.language }}
         queries: security-and-quality
         fetch-depth: 2
-        working-directory: './WinFormsApp1Sep22/WinFormsApp1Sep22.sln'
+        paths-ignore: './ConsoleAppR/**'
+#         working-directory: './WinFormsApp1Sep22/WinFormsApp1Sep22.sln'
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
@@ -68,10 +69,10 @@ jobs:
 
     #   If the Autobuild fails above, remove it and uncomment the following three lines. 
     #   modify them (or add more) to build your code if your project, please refer to the EXAMPLE below for guidance.
-
-#     - run: |
-#       echo "Run, Build Application using script"
-#       ./location_of_script_within_repo/buildscript.sh
+#     -name: CustomBuild
+#     with:
+#       - run: |
+#         dotnet build
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
