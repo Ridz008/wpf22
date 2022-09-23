@@ -1,0 +1,17 @@
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\WinFormsApp1Sep22.exe
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\WinFormsApp1Sep22.deps.json
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\WinFormsApp1Sep22.runtimeconfig.json
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\WinFormsApp1Sep22.dll
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\ref\WinFormsApp1Sep22.dll
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\bin\Debug\net6.0-windows\WinFormsApp1Sep22.pdb
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.csproj.AssemblyReference.cache
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.Form1.resources
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.csproj.GenerateResource.cache
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.AssemblyInfoInputs.cache
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.AssemblyInfo.cs
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.csproj.CoreCompileInputs.cache
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.dll
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\ref\WinFormsApp1Sep22.dll
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.pdb
+C:\Users\Ridz\source\repos\WinFormsApp1Sep22\WinFormsApp1Sep22\obj\Debug\net6.0-windows\WinFormsApp1Sep22.genruntimeconfig.cache
